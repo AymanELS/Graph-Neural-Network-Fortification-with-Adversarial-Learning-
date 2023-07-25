@@ -14,7 +14,7 @@ In many domain applications, including image classification, the changes are ver
 
 ## Model
 ![alt text](Images/Model.png)
-The goal is to create the adversarial malware graphs that are to escape the detection of the GNN model. The generator is a neural network that will learn to choose the best noise to add to the behavior graphs which will increase the odds of misclassification.
+The goal is to create adversarial malware graphs that are to escape the detection of the GNN model. The generator is a neural network that will learn to choose the best noise to add to the behavior graphs which will increase the odds of misclassification by the trained GNN model.
 
 ## Preliminary Results
 
