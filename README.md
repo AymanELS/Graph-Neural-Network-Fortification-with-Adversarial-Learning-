@@ -12,6 +12,10 @@ For the implementation, we use the popular [GraphGym](https://github.com/snap-st
 Most machine learning and deep learning models, including GNNs, are vulnerable to adversarial examples. An adversarial example is an input sample that was slightly modified with the intention of fooling the machine learning classifier [\[2\]](https://arxiv.org/pdf/1804.00097.pdf).
 In many domain applications, including image classification, the changes are very small and may not be perceived by the naked eye. However, for malware detection, the generated adversarial samples need to maintain the functionalities of the original samples [\[3\]](https://nrl.northumbria.ac.uk/id/eprint/49453/1/Accepted%20Manuscript.pdf).
 
+## Model
+![alt text](Images/Model.png)
+The goal is to create the adversarial malware graphs that are to escape the detection of the GNN model. The generator is a neural network that will learn to choose the best noise to add to the behavior graphs which will increase the odds of misclassification.
+
 ## Preliminary Results
 
 Performance of GNN on original malware: Accuracy 0.918, F1_score 0.957
