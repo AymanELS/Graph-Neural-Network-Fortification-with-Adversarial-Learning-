@@ -11,3 +11,9 @@ For the implementation, we use the popular [GraphGym](https://github.com/snap-st
 ## Adversarial Learning
 Most machine learning and deep learning models, including GNNs, are vulnerable to adversarial examples. An adversarial example is an input sample that was slightly modified with the intention of fooling the machine learning classifier [\[2\]](https://arxiv.org/pdf/1804.00097.pdf).
 In many domain applications, including image classification, the changes are very small and may not be perceived by the naked eye. However, for malware detection, the generated adversarial samples need to maintain the functionalities of the original samples [\[3\]](https://nrl.northumbria.ac.uk/id/eprint/49453/1/Accepted%20Manuscript.pdf).
+
+## Preliminary Results
+
+Performance of GNN on original malware: Accuracy 0.918, F1_score 0.957
+Performance of GNN on adversarial malware: Accuracy 0.644, F1_score 0.783
+Performance of retrained GNN on adversarial malware: Accuracy 0.976, F1_score 0.976
