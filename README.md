@@ -15,5 +15,7 @@ In many domain applications, including image classification, the changes are ver
 ## Preliminary Results
 
 Performance of GNN on original malware: Accuracy 0.918, F1_score 0.957
+
 Performance of GNN on adversarial malware: Accuracy 0.644, F1_score 0.783
+
 Performance of retrained GNN on adversarial malware: Accuracy 0.976, F1_score 0.976
